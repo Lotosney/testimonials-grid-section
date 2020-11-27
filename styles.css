@@ -1,2 +1,49 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    margin: 2.5%;
+    padding: 5%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+img{
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+}
+p{
+    opacity: 70%;
+    line-height: 1.5;
+}
+h5{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h6{
+    font-weight: 500;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+   position: relative;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.subcontainer1{
+    display: flex;
+    flex-direction: row;
+}
+.subcontainer2{
+    display: flex;
+    flex-direction: row;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top:20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
