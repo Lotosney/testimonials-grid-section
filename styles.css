@@ -101,3 +101,45 @@ h6 {
     color: hsl(228, 45%, 44%);
 }
 
+@media only screen and (max-width : 375px){
+    .main-container{
+        margin-top:20px;
+
+        flex-direction: column;
+    }
+    .container1{
+        width: 80%;
+
+    }
+    .subcontainer1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .subcontainer2{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .box1 {
+        width:100%;
+        margin-right:0;
+        
+        
+    }
+    .box2 {
+        width:100%;
+        margin-top:20px;
+    }
+    .box3 {
+        width:100%;
+        margin-top:20px;
+    }
+    .box4 {
+        width:100%;
+        margin-top:20px;
+    }
+    .box5 {
+        width:80%;
+        margin-top:20px;
+    }
+}
