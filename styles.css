@@ -91,10 +91,10 @@ h6 {
     width:20%;
 
 }
-.attribution {
+.attribution{    
     font-size: 11px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15%;
 }
 
 .attribution a {
@@ -123,8 +123,7 @@ h6 {
     .box1 {
         width:100%;
         margin-right:0;
-        
-        
+    
     }
     .box2 {
         width:100%;
